@@ -1,0 +1,32 @@
+{
+    "name": "test/test-package",
+    "type": "project",
+    "description": "Test package for  laravel framework",
+    "keywords": [
+        "framework",
+        "laravel",
+        "package"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy",
+            "email": "dm.okhrimenko@gmail.com",
+            "homepage": "https://github.com/dmitriyokhrimenko/TestPackage",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestPackage\\Test\\": "src/"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    }
+}
