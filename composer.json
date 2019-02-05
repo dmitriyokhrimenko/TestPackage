@@ -1,5 +1,5 @@
 {
-    "name": "test/test-package",
+    "name": "myself-test/myself-test-package",
     "type": "project",
     "description": "Test package for  laravel framework",
     "keywords": [
